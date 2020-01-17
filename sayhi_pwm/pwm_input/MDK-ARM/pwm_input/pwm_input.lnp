@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"pwm_input\startup_stm32f103xb.o"
+"pwm_input\main.o"
+"pwm_input\stm32f1xx_it.o"
+"pwm_input\stm32f1xx_hal_msp.o"
+"pwm_input\stm32f1xx_hal_gpio_ex.o"
+"pwm_input\stm32f1xx_hal_tim.o"
+"pwm_input\stm32f1xx_hal_tim_ex.o"
+"pwm_input\stm32f1xx_hal_uart.o"
+"pwm_input\stm32f1xx_hal.o"
+"pwm_input\stm32f1xx_hal_rcc.o"
+"pwm_input\stm32f1xx_hal_rcc_ex.o"
+"pwm_input\stm32f1xx_hal_gpio.o"
+"pwm_input\stm32f1xx_hal_dma.o"
+"pwm_input\stm32f1xx_hal_cortex.o"
+"pwm_input\stm32f1xx_hal_pwr.o"
+"pwm_input\stm32f1xx_hal_flash.o"
+"pwm_input\stm32f1xx_hal_flash_ex.o"
+"pwm_input\stm32f1xx_hal_exti.o"
+"pwm_input\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "pwm_input\pwm_input.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "pwm_input.map" -o pwm_input\pwm_input.axf
