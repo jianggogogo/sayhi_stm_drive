@@ -12,3 +12,8 @@ uart_dma|采用dma接受不定长数据
 
 # sayhi_flash
 在一页中采用数据头和数据尾存储多个数据
+
+# sayhi_pwm
+目录|内容
+---|---
+pwm_out|输出pwm
